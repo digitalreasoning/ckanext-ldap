@@ -8,7 +8,7 @@ setup(
 	description="CKAN plugin to provide LDAP authentication",
     url='https://github.com/NaturalHistoryMuseum/ckanext-ldap',
 	packages=find_packages(),
-	namespace_packages=['ckanext', 'ckanext.ldap'],
+	namespace_packages=['ckanext'],
 	entry_points="""
         [ckan.plugins]
             ldap = ckanext.ldap.plugin:LdapPlugin
